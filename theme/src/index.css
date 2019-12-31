@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Code&display=swap");
+
+@import "./styles/scheme.css";
+
+@import "./styles/base.css";
+
+@import "./styles/type.css";
+
+@import "./styles/markdown.css";
+
+@import "tailwindcss/utilities";

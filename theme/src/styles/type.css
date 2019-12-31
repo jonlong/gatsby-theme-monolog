@@ -1,0 +1,53 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  &:first-child {
+    @apply mt-0;
+  }
+}
+
+h1,
+h2 {
+  @apply my-4;
+}
+
+h1 {
+  @apply text-alpha text-shadow-alpha;
+
+  &:before,
+  &:after {
+    @apply block w-full;
+    content: "------------------------------------------------";
+  }
+}
+
+h2 {
+  @apply text-epsilon text-shadow-epsilon;
+
+  &:after {
+    @apply block w-full;
+    content: "------------------------------------------------";
+  }
+}
+
+h3,
+h4,
+h5,
+h6 {
+  @apply my-5 text-delta text-shadow-delta;
+}
+
+a {
+  @apply underline text-eta;
+}
+
+strong {
+  @apply text-zeta;
+}
+
+blockquote {
+  @apply border-l-2 pl-5 border-zeta text-zeta;
+}

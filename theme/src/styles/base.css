@@ -1,0 +1,4 @@
+body {
+  @apply bg-gray-100 text-kappa text-xs bg-theta;
+  font-family: "Fira Code", monospace;
+}
