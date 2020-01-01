@@ -50,3 +50,13 @@ strong {
 blockquote {
   @apply border-l-2 pl-5 border-zeta text-zeta;
 }
+
+s {
+  text-decoration: none;
+  background-image: linear-gradient(
+    transparent 7px,
+    currentColor 7px,
+    currentColor 9px,
+    transparent 9px
+  );
+}
