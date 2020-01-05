@@ -12,15 +12,6 @@ module.exports = {
           require("autoprefixer")
         ]
       }
-    },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        extensions: [".mdx", ".md"],
-        defaultLayouts: {
-          default: require.resolve("./src/components/Layout.js")
-        }
-      }
     }
   ]
 };

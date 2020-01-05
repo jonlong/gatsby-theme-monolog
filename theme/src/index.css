@@ -10,6 +10,6 @@
 
 @import "./styles/type.css";
 
-@import "./styles/markdown.css";
+@import "./styles/content.css";
 
 @import "tailwindcss/utilities";

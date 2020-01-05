@@ -5,5 +5,16 @@
  */
 
 module.exports = {
-  plugins: ["gatsby-theme-monolog"],
+  plugins: [
+    "gatsby-theme-monolog",
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [".mdx", ".md"],
+        defaultLayouts: {
+          default: require.resolve("./src/components/Layout.js"),
+        },
+      },
+    },
+  ],
 }
