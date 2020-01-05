@@ -1,6 +1,6 @@
 {
   "name": "gatsby-theme-monolog",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
@@ -15,9 +15,6 @@
   },
   "dependencies": {
     "autoprefixer": "^9.7.3",
-    "@mdx-js/mdx": "^1.5.3",
-    "@mdx-js/react": "^1.5.3",
-    "gatsby-plugin-mdx": "^1.0.64",
     "gatsby-plugin-postcss": "^2.1.18",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.1",
